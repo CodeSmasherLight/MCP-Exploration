@@ -12,6 +12,7 @@ def multiply_numbers(a: float, b: float):
     """
     result = a * b
     return {"result": result}
+
 @app.post("/add")
 def add_numbers(a: float, b: float):
     """
@@ -19,6 +20,7 @@ def add_numbers(a: float, b: float):
     """
     result = a + b
     return {"result": result}
+
 @app.post("/subtract")
 def subtract_numbers(a: float, b: float):
     """
@@ -26,6 +28,7 @@ def subtract_numbers(a: float, b: float):
     """
     result = a - b
     return {"result": result}
+
 @app.post("/divide")
 def divide_numbers(a: float, b: float):
     """
